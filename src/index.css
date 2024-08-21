@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding-top: 3rem;
+  background-color: black;
+}
+
+.myTodo-container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  color: white;
+}
+
+.inputDiv {
+  margin-bottom: 2rem;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 2px solid hsla(0, 0, 80%, 0.5);
+  border-radius: 6px;
+  font-size: 1.6rem;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.5s ease;
+}
+
+.add-btn {
+  padding: 12px;
+  border: none;
+  background-color: hsl(125, 63%, 43%);
+  font-size: 1.6rem;
+}
+
+.add-btn:hover {
+  background-color: hsl(125, 47%, 34%);
+}
+
+ol {
+  padding: 0;
+  margin: 0 1rem;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  background-color: rgba(231, 231, 231, 0.925);
+  padding: 6px 0;
+  margin: 8px auto;
+  border-radius: 6px;
+  max-width: 1000px;
+}
+
+.text {
+  flex: 1;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.del-btn {
+  background-color: hsl(10, 90%, 50%);
+}
+
+.del-btn:hover {
+  background-color: hsl(10, 90%, 40%);
+}
+
+.move-btn {
+  background-color: hsl(207, 90%, 64%);
+}
+
+.move-btn:hover {
+  background-color: hsl(207, 90%, 54%);
+}
+
+.del-btn,
+.move-btn {
+  margin-right: 10px;
+  padding: 0.8rem;
+}
